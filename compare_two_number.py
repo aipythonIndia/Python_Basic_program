@@ -1,3 +1,4 @@
+# Python 3 code to compare two numbers
 num1 = 10
 num2 = 20
 
