@@ -1,0 +1,9 @@
+# for more info www.aipython.in/python/python-3-basic-codes/
+
+enter_pin = input("Please enter the PIN: ")
+try:
+    int(enter_pin)
+except:
+    print ("Please Enter only Numbers")
+if len(enter_pin) > 4:
+    print ("PIN length should be 4 BUT you entered {} digit long pin".format(len(enter_pin)))
