@@ -1,3 +1,5 @@
+# for more information visit www.aipython.in/python/python-3-basic-codes/
+
 z = 3+4j     # z is a complex number
 print ("Real part of complex number is: ",z.real)
 print ("Imaginary part is: ", z.imag)
