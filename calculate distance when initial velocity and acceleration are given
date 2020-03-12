@@ -1,4 +1,5 @@
 # For more information visit www.aipython.in/python/python-3-basic-codes/
+
 # This is a comment line and in python, comment line (line starts with #) are ignored by python interpreter
 # formula: s = ut + 1/2 at²
 # s- distance, u - initial velocity, a- acceleration(m/s²), t- time
