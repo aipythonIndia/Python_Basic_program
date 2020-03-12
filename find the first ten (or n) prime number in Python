@@ -1,0 +1,12 @@
+# for more information visit www.aipython.in/python/python-3-basic-codes/
+num = int(input("Enter the numbet till which you want primer numbers: "))
+count = 0 # start the counter to count prime number
+start = 2 # starting number
+prime_num = [2] # to store list of prime numbers
+print ("List of 1st [{}] of prime numbers".format(num))
+while count < num-1:
+    if (start+1) % 2 != 0:
+        prime_num.append(start+1)
+        count += 1
+    start += 1
+print (prime_num)
