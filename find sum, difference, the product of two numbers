@@ -1,0 +1,9 @@
+# for more information visit www.aipython.in/python/python-3-basic-codes/
+num1 = 10
+num2 = 20
+sum_num = num1+num2
+diff_num = num1-num2
+prod_num = num1*num2
+print ("Sum of {} and {} is : {}".format(num1, num2, sum_num))
+print ("Difference of {} and {} is : {}".format(num1, num2, diff_num))
+print ("Product of {} and {} is : {}".format(num1, num2, prod_num))
