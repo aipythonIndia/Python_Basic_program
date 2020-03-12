@@ -1,0 +1,9 @@
+# For more information visit www.aipython.in/python/python-3-basic-codes/
+# This is a comment line and in python, comment line (line starts with #) are ignored by python interpreter
+# formula: s = ut + 1/2 at²
+# s- distance, u - initial velocity, a- acceleration(m/s²), t- time
+u = 10    # unit - m/s
+t = 20    # unit - s
+a = 1.2   # unit - m/s²
+s = u*t + 0.5*(a*(t**2))
+print ("Ditance is: ", s)
