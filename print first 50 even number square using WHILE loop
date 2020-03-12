@@ -1,0 +1,8 @@
+# for more info www.aipython.in/python/python-3-basic-codes/
+count_num = 0 # to count the even numbers
+start_num = 1 # starting number to count from
+while count_num < 50:
+    if (start_num%2) != 0:
+        print (start_num, end=',')
+        count_num += 1
+    start_num += 1
