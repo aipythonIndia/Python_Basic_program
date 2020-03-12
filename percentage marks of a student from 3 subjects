@@ -1,0 +1,9 @@
+# for more info www.aipython.in/python/python-3-basic-codes/
+
+m1 = float(input("Enter the marks for 1st Subject: "))
+m2 = float(input("Enter the marks for 2nd Subject: "))
+m3 = float(input("Enter the marks for 3rd Subject: "))
+m_total = float(input("Enter the total marks for all 3 subjects: "))
+
+percent_mark = ((m1+m2+m3)/m_total)*100
+print ("You obtained {:0.2f}% marks in 3 subject".format(percent_mark))
