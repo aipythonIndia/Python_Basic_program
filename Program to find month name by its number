@@ -1,0 +1,6 @@
+month = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+x = int(input("Enter a number to find month name: "))
+if x>0 and x<= 12:
+    print ("The name of month is -- ", month[x-1])
+else:
+    print ("Enter a valid month number")
