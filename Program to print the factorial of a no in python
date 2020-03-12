@@ -1,0 +1,15 @@
+# for more information visit www.aipython.in/python/python-3-basic-codes/
+# factorial of a number 5 is 5*4*3*2*1 = 120
+# factorial of 0 is 1
+# factorial of -ve number doesn't exist.
+
+f_num = int(input("Enter a number to find factorial: "))
+fact = 1  # for storing factorial
+if f_num==0:
+    print ("factorial of 0 is 1")
+elif f_num < 0:
+    print ("Not valid !! Please enter a positive number")
+else:
+    for i in range(1,f_num):
+        fact = fact*i
+    print ("Factorial of {} is : {}".format(f_num,fact))
