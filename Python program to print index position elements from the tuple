@@ -1,0 +1,14 @@
+# for more information visit www.aipython.in/python/python-3-basic-codes/
+
+x = (10, 20, 30, 40, 60, 70)  # consider this tuple
+for i in range(len(x)):
+    print ("{} - is at position {} ".format(x[i], i))
+    
+# Output
+# 10 - is at position 0
+# 20 - is at position 1
+# 30 - is at position 2
+# 40 - is at position 3
+# 50 - is at position 4
+# 60 - is at position 5
+# 70 - is at position 6
