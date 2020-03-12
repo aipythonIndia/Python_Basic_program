@@ -1,0 +1,7 @@
+# for more info www.aipython.in/python/python-3-basic-codes/
+
+start_val = 10
+end_val = 30
+print ("Integers between {} and {} ".format(start_val, end_val))
+for i in range(start_val, end_val):
+    print (i, end=',')
