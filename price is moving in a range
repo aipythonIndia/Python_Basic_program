@@ -1,0 +1,9 @@
+# for more info www.aipython.in/python/python-3-basic-codes/
+
+check_val = float(input("Enter a price to check: "))
+lower_range = 200
+upper_range = 400
+if (check_val >= lower_range) and (check_val<=upper_range):
+    print ("Current value {} is in my range".format(check_val))
+else:
+    print ("Current value {} is NOT in my range".format(check_val))
