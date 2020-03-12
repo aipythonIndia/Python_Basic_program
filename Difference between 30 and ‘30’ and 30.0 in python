@@ -1,0 +1,15 @@
+# for more info www.aipython.in/python/python-3-basic-codes/
+
+# for python number and text are NOT same
+# if we write,
+x = 30   # this is integer
+y = 30.0 # this is float
+z = '30' # this is string
+
+# You can validate by checking the data type of each declared variable
+>>> print (type(x))
+< class 'int'>
+>>> print (type(y))
+< class 'float'>
+>>> print (type(z))
+<class 'str'>
