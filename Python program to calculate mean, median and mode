@@ -1,0 +1,15 @@
+# for more info www.aipython.in/python/python-3-basic-codes/
+
+# Numpy module has MEAN and MEDIAN method as built-in function
+# Scipy (stats) module has MODE method as built-in function
+import numpy as np
+list_num = [10, 12, 40, 45, 67, 89, 100]
+mean_val = np.mean(list_num)
+median_val = np.median(list_num)
+
+from scipy.stats import mode
+mode_val = mode(list_num)[0][0]
+
+print ("Mean value is: ", mean_val)
+print ("Median value is: ", median_val)
+print ("Mode value is: ", mode_val)
