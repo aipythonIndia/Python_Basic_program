@@ -1,0 +1,7 @@
+# for more information visit www.aipython.in/python/python-3-basic-codes/
+
+start_num = 50
+end_num =80
+
+for i in range(start_num,end_num+1): # 1 is added to end_num, because range function generates range excluding the end value
+    print (i, end=',')
